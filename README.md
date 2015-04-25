@@ -2,11 +2,11 @@
 
 ## Sumary
 
-Just a very simple-bash script which will retrieve every emial under a given
+Just a very simple bash-written script which will retrieve every email under a given
 URI.
 
 ## Usage
 
 * Download main.sh to your computer
-* Give proper permissions: chmog 0777 main.sh
-* Start seeking: ./maih.sh www.yourtarget.com/optional/path
+* Give proper permissions: chmod 0777 main.sh
+* Start seeking: ./mail.sh yourtarget
