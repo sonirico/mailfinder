@@ -26,7 +26,7 @@ fi
 
 echo 'Searching for matches ...';
 wget --recursive --mirror --random-wait \
-    -R gif,jpg,pdf,mp3,m4a,doc,css,png,js,zip -A html,htm  $1 \
+    -R gif,jpg,pdf,mp3,m4a,doc,css,png,js,zip,jpeg,gif -A html,htm  $1 \
     > /dev/null 2>&1
 
 for F in `find . -name "*.htm?"`
